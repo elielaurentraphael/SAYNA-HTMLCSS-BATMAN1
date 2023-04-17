@@ -233,6 +233,27 @@ section.allies .images .description:hover {
 }
 
 /* section justice league */
+section .justice {
+  width: 53vw;
+  margin: auto;
+  padding-bottom: 4.75vw;
+}
+section .justice h1 {
+  color: white;
+  font-size: 1.8vw;
+  letter-spacing: 0.1vw;
+  margin: 0;
+  padding-left: 0;
+  padding-top: 6.6vw;
+  padding-bottom: 1.7vw;
+}
+section .justice p {
+  font-size: 1.23vw;
+  color: rgba(255, 255, 255, 0.8);
+  margin: 0;
+  text-align: justify;
+}
+
 /* class justiceImage */
 main > img.justiceImage {
   display: block;
