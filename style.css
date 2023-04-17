@@ -95,6 +95,16 @@ header .header .social .icon {
 }
 
 /* --main-- */
+main {
+  background-color: #000000;
+}
+main section {
+  width: 68.6vw;
+  border-left: 0.28vw solid rgba(155, 155, 155, 0.2);
+  border-right: 0.28vw solid rgba(155, 155, 155, 0.2);
+  margin: auto;
+}
+
 /* section batman au cinéma */
 /* section némésis */
 /* section alliés */

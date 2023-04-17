@@ -99,6 +99,16 @@ header {
 
 /* --main-- */
 
+main {
+    background-color: #000000;
+    section {
+        width: 68.6vw;
+        border-left: .28vw solid rgba(155, 155, 155, .2);
+        border-right: .28vw solid rgba(155, 155, 155, .2);
+        margin: auto;
+    }
+}
+
 /* section batman au cinéma */
 
 /* section némésis */
