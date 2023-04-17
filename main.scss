@@ -164,16 +164,21 @@ section {
 
 section {
     &.nemesis {
+        position: relative;
         h1 {
             color: white;
             font-size: 1.8vw;
             letter-spacing: .1vw;
             margin: 0;
             padding-left: 4.5vw;
-            padding-top: 5vw;
+            padding-top: 6.7vw;
             padding-bottom: 1.4939vw;
         }
         .bathome13 {
+            width: 8vw;
+            position: absolute;
+            top: 2.5vw;
+            left: 9.5vw;
         }
         >p {
             width: 55vw;
@@ -206,6 +211,10 @@ section {
             }
         }
         .bathome12 {
+            width: 22.5vw;
+            position: absolute;
+            top: 49.7vw;
+            right: -5.7vw;
         }
     }
 }
