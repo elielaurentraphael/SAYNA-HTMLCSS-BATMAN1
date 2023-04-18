@@ -114,13 +114,7 @@ main {
   background-color: #000000;
 }
 
-/* section batman au cinéma */
-section.batmanAuCinema .flecheDown {
-  display: block;
-  margin: auto;
-  width: 4vw;
-}
-section.batmanAuCinema h1 {
+h1 {
   color: white;
   font-size: 1.8vw;
   letter-spacing: 0.1vw;
@@ -128,6 +122,13 @@ section.batmanAuCinema h1 {
   padding-left: 4.5vw;
   padding-top: 5vw;
   padding-bottom: 1.4939vw;
+}
+
+/* section batman au cinéma */
+section.batmanAuCinema .flecheDown {
+  display: block;
+  margin: auto;
+  width: 4vw;
 }
 section.batmanAuCinema > p {
   width: 55vw;
@@ -165,13 +166,7 @@ section.nemesis {
   position: relative;
 }
 section.nemesis h1 {
-  color: white;
-  font-size: 1.8vw;
-  letter-spacing: 0.1vw;
-  margin: 0;
-  padding-left: 4.5vw;
   padding-top: 6.7vw;
-  padding-bottom: 1.4939vw;
 }
 section.nemesis .bathome13 {
   width: 8vw;
@@ -217,15 +212,6 @@ section.nemesis .bathome12 {
 }
 
 /* section alliés */
-section.allies h1 {
-  color: white;
-  font-size: 1.8vw;
-  letter-spacing: 0.1vw;
-  margin: 0;
-  padding-left: 4.5vw;
-  padding-top: 5vw;
-  padding-bottom: 1.4939vw;
-}
 section.allies > p {
   width: 55vw;
   font-size: 1.23vw;
@@ -264,10 +250,6 @@ section .justice {
   padding-bottom: 4.75vw;
 }
 section .justice h1 {
-  color: white;
-  font-size: 1.8vw;
-  letter-spacing: 0.1vw;
-  margin: 0;
   padding-left: 0;
   padding-top: 6.6vw;
   padding-bottom: 1.7vw;
@@ -286,15 +268,6 @@ main > img.justiceImage {
 }
 
 /* section multimédia */
-.multimedia h1 {
-  color: white;
-  font-size: 1.8vw;
-  letter-spacing: 0.1vw;
-  margin: 0;
-  padding-left: 4.5vw;
-  padding-top: 5vw;
-  padding-bottom: 1.4939vw;
-}
 .multimedia .media {
   display: flex;
   align-items: center;

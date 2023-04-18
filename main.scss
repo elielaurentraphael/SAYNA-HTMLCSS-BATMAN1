@@ -122,6 +122,16 @@ main {
     background-color: #000000;
 }
 
+h1 {
+    color: white;
+    font-size: 1.8vw;
+    letter-spacing: .1vw;
+    margin: 0;
+    padding-left: 4.5vw;
+    padding-top: 5vw;
+    padding-bottom: 1.4939vw;
+}
+
 /* section batman au cinéma */
 
 section {
@@ -130,15 +140,6 @@ section {
             display: block;
             margin: auto;
             width: 4vw;
-        }
-        h1 {
-            color: white;
-            font-size: 1.8vw;
-            letter-spacing: .1vw;
-            margin: 0;
-            padding-left: 4.5vw;
-            padding-top: 5vw;
-            padding-bottom: 1.4939vw;
         }
         >p {
             width: 55vw;
@@ -179,13 +180,7 @@ section {
     &.nemesis {
         position: relative;
         h1 {
-            color: white;
-            font-size: 1.8vw;
-            letter-spacing: .1vw;
-            margin: 0;
-            padding-left: 4.5vw;
             padding-top: 6.7vw;
-            padding-bottom: 1.4939vw;
         }
         .bathome13 {
             width: 8vw;
@@ -236,15 +231,6 @@ section {
 
 section {
     &.allies {
-        h1 {
-            color: white;
-            font-size: 1.8vw;
-            letter-spacing: .1vw;
-            margin: 0;
-            padding-left: 4.5vw;
-            padding-top: 5vw;
-            padding-bottom: 1.4939vw;
-        }
         >p {
             width: 55vw;
             font-size: 1.23vw;
@@ -286,10 +272,6 @@ section {
         margin: auto;
         padding-bottom: 4.75vw;
         h1 {
-            color: white;
-            font-size: 1.8vw;
-            letter-spacing: .1vw;
-            margin: 0;
             padding-left: 0;
             padding-top: 6.6vw;
             padding-bottom: 1.7vw;
@@ -315,15 +297,6 @@ main {
 /* section multimédia */
 
 .multimedia {
-    h1 {
-        color: white;
-        font-size: 1.8vw;
-        letter-spacing: .1vw;
-        margin: 0;
-        padding-left: 4.5vw;
-        padding-top: 5vw;
-        padding-bottom: 1.4939vw;
-    }
     .media {
         display: flex;
         align-items: center;
