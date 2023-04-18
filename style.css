@@ -124,19 +124,20 @@ h1 {
   padding-bottom: 1.4939vw;
 }
 
-/* section batman au cinéma */
-section.batmanAuCinema .flecheDown {
-  display: block;
-  margin: auto;
-  width: 4vw;
-}
-section.batmanAuCinema > p {
+section > p {
   width: 55vw;
   font-size: 1.23vw;
   color: rgba(255, 255, 255, 0.8);
   padding-left: 4.5vw;
   margin-bottom: 5vw;
   text-align: justify;
+}
+
+/* section batman au cinéma */
+section.batmanAuCinema .flecheDown {
+  display: block;
+  margin: auto;
+  width: 4vw;
 }
 section.batmanAuCinema .images {
   display: flex;
@@ -174,14 +175,6 @@ section.nemesis .bathome13 {
   top: 2.5vw;
   left: 9.5vw;
 }
-section.nemesis > p {
-  width: 55vw;
-  font-size: 1.23vw;
-  color: rgba(255, 255, 255, 0.8);
-  padding-left: 4.5vw;
-  margin-bottom: 5vw;
-  text-align: justify;
-}
 section.nemesis .images {
   display: flex;
   justify-content: space-evenly;
@@ -212,14 +205,6 @@ section.nemesis .bathome12 {
 }
 
 /* section alliés */
-section.allies > p {
-  width: 55vw;
-  font-size: 1.23vw;
-  color: rgba(255, 255, 255, 0.8);
-  padding-left: 4.5vw;
-  margin-bottom: 5vw;
-  text-align: justify;
-}
 section.allies .images {
   display: flex;
   justify-content: space-evenly;
