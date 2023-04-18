@@ -44,14 +44,15 @@ button:hover {
 }
 
 /* --header-- */
-header {
+header,
+.header {
   height: 50.0555554096vw;
   margin: 0 auto;
+}
+
+header {
   background-image: url(./Assets/illustrations/Bathome1.png);
   background-size: 100%;
-}
-header .header {
-  height: 50.0555554096vw;
 }
 header .header nav {
   font-weight: bold;
