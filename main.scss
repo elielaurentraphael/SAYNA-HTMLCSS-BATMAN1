@@ -365,7 +365,164 @@ main {
     }
 }
 
-/* section contact */
+/* class contact */
+
+.contact {
+    background-image: linear-gradient(315deg, rgba(25, 88, 125, .4)16%, rgb(237, 222, 191, .4)96%);
+    h1 {
+        margin: 0;
+        padding: 3vw;
+        text-align: center;
+        font-size: 1.7vw;
+    }
+    form {
+        width: 50%;
+        margin: auto;
+        .label-email {
+            label {
+                font-size: 1.2vw;
+            }
+        }
+        .email {
+            input {
+                width: 100%;
+                background-color: transparent;
+                border: none;
+                border-bottom: .1vw solid gray;
+                margin-top: 1.5vw;
+                margin-bottom: 2.6vw;
+                font-family: inherit;
+                font-size: .85vw;
+                letter-spacing: .02vw;
+                word-spacing: .04vw;
+                font-weight: lighter;
+                color: gray;
+            }
+        }
+        .label-checkbox {
+            margin-bottom: 1.5vw;
+            label {
+                font-size: 1.2vw;
+            }
+        }
+        .checkbox {
+            p {
+                font-size: .85vw;
+                letter-spacing: .02vw;
+                word-spacing: .04vw;
+                font-weight: lighter;
+                color: gray;
+            }
+            >p {
+                margin-bottom: 0;
+            }
+            .pa {
+                display: flex;
+                align-items: center;
+                input {
+                    width: 1.2vw;
+                    height: 1.2vw;
+                    display: block;
+                    margin-left: .6vw;
+                    color: blue;
+                }
+            }
+        }
+        .frequence {
+            select {
+                width: 100%;
+                margin-top: 0.6vw;
+                background-color: transparent;
+                border: none;
+                border-bottom: .1vw solid gray;
+                font-family: "Space Grotesk";
+                font-size: .85vw;
+                letter-spacing: .02vw;
+                word-spacing: .04vw;
+                font-weight: lighter;
+                color: gray;
+            }
+        }
+        .input-type-button {
+            .input-disabled {
+                input {
+                    width: 100%;
+                    background-color: transparent;
+                    border: none;
+                    border-bottom: .1vw solid rgba(211, 207, 207, .8);
+                    margin-top: 1.5vw;
+                    font-family: "Space Grotesk";
+                    font-size: .85vw;
+                    letter-spacing: .02vw;
+                    word-spacing: .04vw;
+                    font-weight: lighter;
+                    color: rgba(211, 207, 207, .8);
+                }
+            }
+            .input-button {
+                text-align: center;
+                input {
+                    background-color: transparent;
+                    border: none;
+                    padding: .5vw 1.5vw;
+                    margin: 1.5vw .85vw;
+                    font-family: "Space Grotesk";
+                    font-size: .65vw;
+                    letter-spacing: .01vw;
+                    color: white;
+                }
+                .gradient {
+                    border-style: solid;
+                    border-width: .1vw;
+                    border-image: linear-gradient(135deg, rgb(163, 152, 147), rgb(35, 129, 141)) 1;
+                }
+            }
+        }
+        .message {
+            .message-label {
+                label {
+                    font-size: 1.2vw;
+                }
+            }
+            .message-input {
+                input {
+                    width: 100%;
+                    background-color: transparent;
+                    border: none;
+                    border-bottom: .1vw solid gray;
+                    margin-top: 1.5vw;
+                    margin-bottom: 2.6vw;
+                    font-family: inherit;
+                    font-size: .85vw;
+                    letter-spacing: .02vw;
+                    word-spacing: .04vw;
+                    font-weight: lighter;
+                    color: gray;
+                }
+            }
+        }
+        .confirmer {
+            padding-bottom: 3vw;
+            .button {
+                text-align: center;
+                button {
+                    letter-spacing: .1vw;
+                    font-size: .95vw;
+                    color: rgba(255, 255, 255, .8);
+                    background: linear-gradient(315deg, rgba(137, 0, 8, .6), rgba(237, 222, 191, .4));
+                    border: none;
+                    padding: 1.25vw 0;
+                    width: 14vw;
+                    cursor: pointer;
+                    margin: 0;
+                    &:hover {
+                        background: linear-gradient(315deg, rgba(137, 0, 8), rgba(237, 222, 191));
+                    }
+                }
+            }
+        }
+    }
+}
 
 /* --footer-- */
 

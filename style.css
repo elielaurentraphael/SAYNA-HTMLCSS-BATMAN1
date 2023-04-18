@@ -337,7 +337,146 @@ main > img.justiceImage {
   width: 100%;
 }
 
-/* section contact */
+/* class contact */
+.contact {
+  background-image: linear-gradient(315deg, rgba(25, 88, 125, 0.4) 16%, rgba(237, 222, 191, 0.4) 96%);
+}
+.contact h1 {
+  margin: 0;
+  padding: 3vw;
+  text-align: center;
+  font-size: 1.7vw;
+}
+.contact form {
+  width: 50%;
+  margin: auto;
+}
+.contact form .label-email label {
+  font-size: 1.2vw;
+}
+.contact form .email input {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 0.1vw solid gray;
+  margin-top: 1.5vw;
+  margin-bottom: 2.6vw;
+  font-family: inherit;
+  font-size: 0.85vw;
+  letter-spacing: 0.02vw;
+  word-spacing: 0.04vw;
+  font-weight: lighter;
+  color: gray;
+}
+.contact form .label-checkbox {
+  margin-bottom: 1.5vw;
+}
+.contact form .label-checkbox label {
+  font-size: 1.2vw;
+}
+.contact form .checkbox p {
+  font-size: 0.85vw;
+  letter-spacing: 0.02vw;
+  word-spacing: 0.04vw;
+  font-weight: lighter;
+  color: gray;
+}
+.contact form .checkbox > p {
+  margin-bottom: 0;
+}
+.contact form .checkbox .pa {
+  display: flex;
+  align-items: center;
+}
+.contact form .checkbox .pa input {
+  width: 1.2vw;
+  height: 1.2vw;
+  display: block;
+  margin-left: 0.6vw;
+  color: blue;
+}
+.contact form .frequence select {
+  width: 100%;
+  margin-top: 0.6vw;
+  background-color: transparent;
+  border: none;
+  border-bottom: 0.1vw solid gray;
+  font-family: "Space Grotesk";
+  font-size: 0.85vw;
+  letter-spacing: 0.02vw;
+  word-spacing: 0.04vw;
+  font-weight: lighter;
+  color: gray;
+}
+.contact form .input-type-button .input-disabled input {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 0.1vw solid rgba(211, 207, 207, 0.8);
+  margin-top: 1.5vw;
+  font-family: "Space Grotesk";
+  font-size: 0.85vw;
+  letter-spacing: 0.02vw;
+  word-spacing: 0.04vw;
+  font-weight: lighter;
+  color: rgba(211, 207, 207, 0.8);
+}
+.contact form .input-type-button .input-button {
+  text-align: center;
+}
+.contact form .input-type-button .input-button input {
+  background-color: transparent;
+  border: none;
+  padding: 0.5vw 1.5vw;
+  margin: 1.5vw 0.85vw;
+  font-family: "Space Grotesk";
+  font-size: 0.65vw;
+  letter-spacing: 0.01vw;
+  color: white;
+}
+.contact form .input-type-button .input-button .gradient {
+  border-style: solid;
+  border-width: 0.1vw;
+  border-image: linear-gradient(135deg, rgb(163, 152, 147), rgb(35, 129, 141)) 1;
+}
+.contact form .message .message-label label {
+  font-size: 1.2vw;
+}
+.contact form .message .message-input input {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 0.1vw solid gray;
+  margin-top: 1.5vw;
+  margin-bottom: 2.6vw;
+  font-family: inherit;
+  font-size: 0.85vw;
+  letter-spacing: 0.02vw;
+  word-spacing: 0.04vw;
+  font-weight: lighter;
+  color: gray;
+}
+.contact form .confirmer {
+  padding-bottom: 3vw;
+}
+.contact form .confirmer .button {
+  text-align: center;
+}
+.contact form .confirmer .button button {
+  letter-spacing: 0.1vw;
+  font-size: 0.95vw;
+  color: rgba(255, 255, 255, 0.8);
+  background: linear-gradient(315deg, rgba(137, 0, 8, 0.6), rgba(237, 222, 191, 0.4));
+  border: none;
+  padding: 1.25vw 0;
+  width: 14vw;
+  cursor: pointer;
+  margin: 0;
+}
+.contact form .confirmer .button button:hover {
+  background: linear-gradient(315deg, rgb(137, 0, 8), rgb(237, 222, 191));
+}
+
 /* --footer-- */
 /* section footer */
 
