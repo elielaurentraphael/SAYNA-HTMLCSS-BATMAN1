@@ -17,6 +17,15 @@ button {
     font-family: "Rajdhani";
 }
 
+.header,
+section,
+.footer {
+    width: 68.6vw;
+    border-left: .28vw solid rgba(155, 155, 155, .2);
+    border-right: .28vw solid rgba(155, 155, 155, .2);
+    margin: 0 auto;
+}
+
 /* --header-- */
 
 header {
@@ -26,10 +35,6 @@ header {
     background-size: 100%;
     .header {
         height: calc(80vw / 1.5982242);
-        margin: 0 auto;
-        width: 68.6vw;
-        border-left: .28vw solid rgba(155, 155, 155, .2);
-        border-right: .28vw solid rgba(155, 155, 155, .2);
         nav {
             font-weight: bold;
             letter-spacing: .1vw;
@@ -105,12 +110,6 @@ header {
 
 main {
     background-color: #000000;
-    section {
-        width: 68.6vw;
-        border-left: .28vw solid rgba(155, 155, 155, .2);
-        border-right: .28vw solid rgba(155, 155, 155, .2);
-        margin: auto;
-    }
 }
 
 /* section batman au cinéma */
@@ -537,10 +536,6 @@ footer {
 /* section footer */
 
 .footer {
-    width: 68.6vw;
-    border-left: .28vw solid rgba(155, 155, 155, .2);
-    border-right: .28vw solid rgba(155, 155, 155, .2);
-    margin: auto;
     .a {
         padding: 9.5vw;
         .b {
