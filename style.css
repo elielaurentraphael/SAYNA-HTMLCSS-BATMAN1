@@ -133,33 +133,34 @@ section > p {
   text-align: justify;
 }
 
-/* section batman au cinéma */
-section.batmanAuCinema .flecheDown {
-  display: block;
-  margin: auto;
-  width: 4vw;
-}
-section.batmanAuCinema .images {
+section > .images {
   display: flex;
   justify-content: space-evenly;
 }
-section.batmanAuCinema .images .description {
+section > .images .description {
   width: 17vw;
   font-family: "Rajdhani";
 }
-section.batmanAuCinema .images .description img {
+section > .images .description img {
   display: block;
   width: 100%;
 }
-section.batmanAuCinema .images .description > p {
+section > .images .description > p {
   color: rgba(255, 255, 255, 0.9);
   text-align: center;
   font-size: 1.15vw;
   font-weight: 500;
   margin: 1.2vw 0;
 }
-section.batmanAuCinema .images .description:hover {
+section > .images .description:hover {
   scale: 1.1;
+}
+
+/* section batman au cinéma */
+section.batmanAuCinema .flecheDown {
+  display: block;
+  margin: auto;
+  width: 4vw;
 }
 
 /* section némésis */
@@ -175,28 +176,6 @@ section.nemesis .bathome13 {
   top: 2.5vw;
   left: 9.5vw;
 }
-section.nemesis .images {
-  display: flex;
-  justify-content: space-evenly;
-}
-section.nemesis .images .description {
-  width: 17vw;
-  font-family: "Rajdhani";
-}
-section.nemesis .images .description img {
-  display: block;
-  width: 100%;
-}
-section.nemesis .images .description > p {
-  color: rgba(255, 255, 255, 0.9);
-  text-align: center;
-  font-size: 1.15vw;
-  font-weight: 500;
-  margin: 1.2vw 0;
-}
-section.nemesis .images .description:hover {
-  scale: 1.1;
-}
 section.nemesis .bathome12 {
   width: 22.5vw;
   position: absolute;
@@ -205,29 +184,6 @@ section.nemesis .bathome12 {
 }
 
 /* section alliés */
-section.allies .images {
-  display: flex;
-  justify-content: space-evenly;
-}
-section.allies .images .description {
-  width: 17vw;
-  font-family: "Rajdhani";
-}
-section.allies .images .description img {
-  display: block;
-  width: 100%;
-}
-section.allies .images .description > p {
-  color: rgba(255, 255, 255, 0.9);
-  text-align: center;
-  font-size: 1.15vw;
-  font-weight: 500;
-  margin: 1.2vw 0;
-}
-section.allies .images .description:hover {
-  scale: 1.1;
-}
-
 /* section justice league */
 section .justice {
   width: 53vw;

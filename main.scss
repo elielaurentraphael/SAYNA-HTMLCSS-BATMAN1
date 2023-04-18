@@ -141,6 +141,29 @@ section>p {
     text-align: justify;
 }
 
+section>.images {
+    display: flex;
+    justify-content: space-evenly;
+    .description {
+        width: 17vw;
+        font-family: "Rajdhani";
+        img {
+            display: block;
+            width: 100%;
+        }
+        >p {
+            color: rgba(255, 255, 255, .9);
+            text-align: center;
+            font-size: 1.15vw;
+            font-weight: 500;
+            margin: 1.2vw 0;
+        }
+        &:hover {
+            scale: 1.1;
+        }
+    }
+}
+
 /* section batman au cinéma */
 
 section {
@@ -149,28 +172,6 @@ section {
             display: block;
             margin: auto;
             width: 4vw;
-        }
-        .images {
-            display: flex;
-            justify-content: space-evenly;
-            .description {
-                width: 17vw;
-                font-family: "Rajdhani";
-                img {
-                    display: block;
-                    width: 100%;
-                }
-                >p {
-                    color: rgba(255, 255, 255, .9);
-                    text-align: center;
-                    font-size: 1.15vw;
-                    font-weight: 500;
-                    margin: 1.2vw 0;
-                }
-                &:hover {
-                    scale: 1.1;
-                }
-            }
         }
     }
 }
@@ -189,28 +190,6 @@ section {
             top: 2.5vw;
             left: 9.5vw;
         }
-        .images {
-            display: flex;
-            justify-content: space-evenly;
-            .description {
-                width: 17vw;
-                font-family: "Rajdhani";
-                img {
-                    display: block;
-                    width: 100%;
-                }
-                >p {
-                    color: rgba(255, 255, 255, .9);
-                    text-align: center;
-                    font-size: 1.15vw;
-                    font-weight: 500;
-                    margin: 1.2vw 0;
-                }
-                &:hover {
-                    scale: 1.1;
-                }
-            }
-        }
         .bathome12 {
             width: 22.5vw;
             position: absolute;
@@ -221,33 +200,6 @@ section {
 }
 
 /* section alliés */
-
-section {
-    &.allies {
-        .images {
-            display: flex;
-            justify-content: space-evenly;
-            .description {
-                width: 17vw;
-                font-family: "Rajdhani";
-                img {
-                    display: block;
-                    width: 100%;
-                }
-                >p {
-                    color: rgba(255, 255, 255, .9);
-                    text-align: center;
-                    font-size: 1.15vw;
-                    font-weight: 500;
-                    margin: 1.2vw 0;
-                }
-                &:hover {
-                    scale: 1.1;
-                }
-            }
-        }
-    }
-}
 
 /* section justice league */
 
