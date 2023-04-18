@@ -11,6 +11,12 @@ body {
     color: rgba(255, 255, 255, .8);
 }
 
+h1,
+nav,
+button {
+    font-family: "Rajdhani";
+}
+
 /* --header-- */
 
 header {
@@ -25,7 +31,6 @@ header {
         border-left: .28vw solid rgba(155, 155, 155, .2);
         border-right: .28vw solid rgba(155, 155, 155, .2);
         nav {
-            font-family: "Rajdhani";
             font-weight: bold;
             letter-spacing: .1vw;
             font-size: 1.5vw;
@@ -61,7 +66,6 @@ header {
         .button {
             text-align: center;
             button {
-                font-family: "Rajdhani";
                 letter-spacing: .1vw;
                 font-size: .95vw;
                 color: rgba(255, 255, 255, .8);
