@@ -24,6 +24,25 @@ section,
   margin: 0 auto;
 }
 
+.button {
+  text-align: center;
+}
+
+button {
+  letter-spacing: 0.1vw;
+  font-size: 0.95vw;
+  color: rgba(255, 255, 255, 0.8);
+  background: linear-gradient(315deg, rgba(137, 0, 8, 0.6), rgba(237, 222, 191, 0.4));
+  border: none;
+  margin: 0;
+  padding: 1.25vw 0;
+  width: 14vw;
+  cursor: pointer;
+}
+button:hover {
+  background: linear-gradient(315deg, rgb(137, 0, 8), rgb(237, 222, 191));
+}
+
 /* --header-- */
 header {
   height: 50.0555554096vw;
@@ -67,22 +86,8 @@ header .header .heading {
   font-weight: bold;
   padding-top: 1vw;
 }
-header .header .button {
-  text-align: center;
-}
 header .header .button button {
-  letter-spacing: 0.1vw;
-  font-size: 0.95vw;
-  color: rgba(255, 255, 255, 0.8);
-  background: linear-gradient(315deg, rgba(137, 0, 8, 0.6), rgba(237, 222, 191, 0.4));
-  border: none;
   margin: 2.5vw 1vw;
-  padding: 1.25vw 0;
-  width: 14vw;
-  cursor: pointer;
-}
-header .header .button button:hover {
-  background: linear-gradient(315deg, rgb(137, 0, 8), rgb(237, 222, 191));
 }
 header .header .social {
   display: inline-block;
@@ -461,23 +466,6 @@ main > img.justiceImage {
 }
 .contact form .confirmer {
   padding-bottom: 3vw;
-}
-.contact form .confirmer .button {
-  text-align: center;
-}
-.contact form .confirmer .button button {
-  letter-spacing: 0.1vw;
-  font-size: 0.95vw;
-  color: rgba(255, 255, 255, 0.8);
-  background: linear-gradient(315deg, rgba(137, 0, 8, 0.6), rgba(237, 222, 191, 0.4));
-  border: none;
-  padding: 1.25vw 0;
-  width: 14vw;
-  cursor: pointer;
-  margin: 0;
-}
-.contact form .confirmer .button button:hover {
-  background: linear-gradient(315deg, rgb(137, 0, 8), rgb(237, 222, 191));
 }
 
 /* --footer-- */
