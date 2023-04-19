@@ -68,9 +68,15 @@ header {
             justify-content: space-between;
             box-sizing: border-box;
             padding: 3.3vw 5vw;
-            img {
-                margin: 0;
+            .logohome {
+                width: 6.69986vw;
                 height: 2.2702vw;
+                background-image: url(./Assets/logos/logohome.png);
+                background-size: 100%;
+                cursor: pointer;
+                &:hover {
+                    background-image: url(./Assets/logos/logohoma.png);
+                }
             }
             a {
                 display: block;

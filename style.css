@@ -66,9 +66,15 @@ header .header nav {
   box-sizing: border-box;
   padding: 3.3vw 5vw;
 }
-header .header nav img {
-  margin: 0;
+header .header nav .logohome {
+  width: 6.69986vw;
   height: 2.2702vw;
+  background-image: url(./Assets/logos/logohome.png);
+  background-size: 100%;
+  cursor: pointer;
+}
+header .header nav .logohome:hover {
+  background-image: url(./Assets/logos/logohoma.png);
 }
 header .header nav a {
   display: block;
