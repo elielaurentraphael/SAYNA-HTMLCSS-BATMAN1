@@ -132,6 +132,9 @@ section > p {
   margin-bottom: 5vw;
   text-align: justify;
 }
+section > p span {
+  letter-spacing: 0.055vw;
+}
 
 section > .images {
   display: flex;
