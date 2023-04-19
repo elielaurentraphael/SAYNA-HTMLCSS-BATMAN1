@@ -102,17 +102,52 @@ header .header .social {
   top: 19.3vw;
   right: 12.2vw;
 }
-header .header .social img {
-  display: block;
+header .header .social div {
+  cursor: pointer;
   margin: 1.8vw auto;
 }
 header .header .social .logo {
   width: 5.6vw;
   height: 3.23vw;
 }
+header .header .social .logo#flecheHaut {
+  background-image: url(./Assets/logos/logo_bat_flèche.png);
+  background-size: 100%;
+}
+header .header .social .logo#flecheHaut:hover {
+  background-image: url(./Assets/logos/logo_bat_flèche_a.png);
+}
+header .header .social .logo#flecheBas {
+  background-image: url(./Assets/logos/logo_bat_flèche_2.png);
+  background-size: 100%;
+}
+header .header .social .logo#flecheBas:hover {
+  background-image: url(./Assets/logos/logo_bat_flèche_2_a.png);
+}
 header .header .social .icon {
   width: 1.3vw;
   height: 1.3vw;
+}
+header .header .social .icon#fb {
+  background-image: url(./Assets/logos/icon_facebook.png);
+  background-size: 100%;
+}
+header .header .social .icon#fb:hover {
+  background-image: url(./Assets/logos/icon_facebook_a.png);
+}
+header .header .social .icon#ig {
+  background-image: url(./Assets/logos/icon_ig.png);
+  background-size: 100%;
+}
+header .header .social .icon#ig:hover {
+  background-image: url(./Assets/logos/icon_igcopie.png);
+}
+header .header .social .icon#tw {
+  background-image: url(./Assets/logos/icon_tw.png);
+  background-size: 100%;
+}
+header .header .social .icon#tw:hover {
+  background-image: url(./Assets/logos/icon_tw_a.png);
 }
 
 /* --main-- */
