@@ -43,6 +43,71 @@ button:hover {
   background: linear-gradient(315deg, rgb(137, 0, 8), rgb(237, 222, 191));
 }
 
+.intro,
+.heading,
+.button,
+.animation,
+.justice,
+.contact,
+.justiceImage {
+  position: relative;
+  animation: fadeIn 8s;
+  -webkit-animation: fadeIn 8s;
+  -moz-animation: fadeIn 8s;
+  -o-animation: fadeIn 8s;
+  -ms-animation: fadeIn 8s;
+}
+
+@keyframes fadeIn {
+  0% {
+    left: -70vw;
+    opacity: 0;
+  }
+  100% {
+    left: 0;
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadeIn {
+  0% {
+    left: -70vw;
+    opacity: 0;
+  }
+  100% {
+    left: 0;
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadeIn {
+  0% {
+    left: -70vw;
+    opacity: 0;
+  }
+  100% {
+    left: 0;
+    opacity: 1;
+  }
+}
+@-o-keyframes fadeIn {
+  0% {
+    left: -70vw;
+    opacity: 0;
+  }
+  100% {
+    left: 0;
+    opacity: 1;
+  }
+}
+@-ms-keyframes fadeIn {
+  0% {
+    left: -70vw;
+    opacity: 0;
+  }
+  100% {
+    left: 0;
+    opacity: 1;
+  }
+}
 /* --header-- */
 header,
 .header {
@@ -165,7 +230,7 @@ h1 {
   padding-bottom: 1.4939vw;
 }
 
-section > p {
+section > .animation > p {
   width: 55vw;
   font-size: 1.23vw;
   color: rgba(255, 255, 255, 0.8);
@@ -173,30 +238,30 @@ section > p {
   margin-bottom: 5vw;
   text-align: justify;
 }
-section > p span {
+section > .animation > p span {
   letter-spacing: 0.055vw;
 }
 
-section > .images {
+section > div > .images { /* on met div au lieu de .animation pour avoir le minimum de specificity */
   display: flex;
   justify-content: space-evenly;
 }
-section > .images .description {
+section > div > .images .description {
   width: 17vw;
   font-family: "Rajdhani";
 }
-section > .images .description img {
+section > div > .images .description img {
   display: block;
   width: 100%;
 }
-section > .images .description > p {
+section > div > .images .description > p {
   color: rgba(255, 255, 255, 0.9);
   text-align: center;
   font-size: 1.15vw;
   font-weight: 500;
   margin: 1.2vw 0;
 }
-section > .images .description:hover {
+section > div > .images .description:hover {
   scale: 1.1;
 }
 

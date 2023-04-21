@@ -45,6 +45,41 @@ button {
     }
 }
 
+.intro,
+.heading,
+.button,
+.animation,
+.justice,
+.contact,
+.justiceImage {
+    position: relative;
+    animation: fadeIn 8s;
+    -webkit-animation: fadeIn 8s;
+    -moz-animation: fadeIn 8s;
+    -o-animation: fadeIn 8s;
+    -ms-animation: fadeIn 8s;
+}
+@keyframes fadeIn {
+    0% { left: -70vw; opacity: 0; }
+    100% { left: 0; opacity: 1; }
+}
+@-webkit-keyframes fadeIn {
+    0% { left: -70vw; opacity: 0; }
+    100% { left: 0; opacity: 1; }
+}
+@-moz-keyframes fadeIn {
+    0% { left: -70vw; opacity: 0; }
+    100% { left: 0; opacity: 1; }
+}
+@-o-keyframes fadeIn {
+    0% { left: -70vw; opacity: 0; }
+    100% { left: 0; opacity: 1; }
+}
+@-ms-keyframes fadeIn {
+    0% { left: -70vw; opacity: 0; }
+    100% { left: 0; opacity: 1; }
+}
+
 /* --header-- */
 
 header,
@@ -173,7 +208,7 @@ h1 {
     padding-bottom: 1.4939vw;
 }
 
-section>p {
+section>.animation>p {
     width: 55vw;
     font-size: 1.23vw;
     color: rgba(255, 255, 255, .8);
@@ -185,7 +220,7 @@ section>p {
     }
 }
 
-section>.images {
+section>div>.images { /* on met div au lieu de .animation pour avoir le minimum de specificity */
     display: flex;
     justify-content: space-evenly;
     .description {
