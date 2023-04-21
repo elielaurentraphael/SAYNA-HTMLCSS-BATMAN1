@@ -166,6 +166,7 @@ header .header .social {
   position: fixed;
   top: 19.3vw;
   right: 12.2vw;
+  z-index: 1; /* amelioration de l'effet hover */
 }
 header .header .social div {
   cursor: pointer;

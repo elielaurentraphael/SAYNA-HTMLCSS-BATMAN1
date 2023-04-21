@@ -20,7 +20,7 @@
     <!-- header -->
 
     <header>
-        <div class="header">
+        <div class="header" id="header">
             <nav>
                 <div class="logohome"></div>
                 <a href="#">HOME</a>
@@ -34,15 +34,19 @@
                 Il est Batman.
             </div>
             <div class="button">
-                <button>VOIR LE HEROS</button>
-                <button>LES ADVERSAIRES</button>
+                <a href="#batmanAuCinema"><button>VOIR LE HEROS</button></a>
+                <a href="#nemesis"><button>LES ADVERSAIRES</button></a>
             </div>
             <div class="social">
-                <div class="logo" id="flecheHaut"></div>
+                <a href="#header">
+                    <div class="logo" id="flecheHaut"></div>
+                </a>
                 <div class="icon" id="fb"></div>
                 <div class="icon" id="ig"></div>
                 <div class="icon" id="tw"></div>
-                <div class="logo" id="flecheBas"></div>
+                <a href="#contact">
+                    <div class="logo" id="flecheBas"></div>
+                </a>
             </div>
         </div>
     </header>
@@ -53,7 +57,7 @@
 
         <!-- section batman au cinéma -->
 
-        <section class="batmanAuCinema">
+        <section class="batmanAuCinema" id="batmanAuCinema">
             <div class="animation">
                 <img class="flecheDown" src="./Assets/Logos/flèche_down_header.png" alt="flèche down">
                 <h1>BATMAN AU CINÉMA</h1>
@@ -93,7 +97,7 @@
 
         <!-- section némésis -->
 
-        <section class="nemesis">
+        <section class="nemesis" id="nemesis">
             <div class="animation">
                 <h1>NÉMÉSIS</h1>
                 <img class="bathome13" src="./Assets/Illustrations/Bathome13.png" alt="Bathome13">
@@ -227,7 +231,7 @@
 
         <!-- class contact -->
 
-        <div class="contact">
+        <div class="contact" id="contact">
             <h1>PRENONS CONTACT</h1>
             <form action="">
                 <div class="label-email">

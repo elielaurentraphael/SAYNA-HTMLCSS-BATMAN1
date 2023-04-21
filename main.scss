@@ -141,6 +141,7 @@ header {
             position: fixed;
             top: 19.3vw;
             right: 12.20vw;
+            z-index: 1;             /* amelioration de l'effet hover */
             div {
                 cursor: pointer;
                 margin: 1.8vw auto;
