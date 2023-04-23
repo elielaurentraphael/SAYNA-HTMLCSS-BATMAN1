@@ -18,8 +18,7 @@ button {
 }
 
 .header,
-section,
-.footer {
+section {                   
     width: 68.6vw;
     border-left: .28vw solid rgba(155, 155, 155, .2);
     border-right: .28vw solid rgba(155, 155, 155, .2);
@@ -444,6 +443,9 @@ main {
                 word-spacing: .04vw;
                 font-weight: lighter;
                 color: gray;
+                option {
+                    background: rgba(13, 73, 105, 0.8);
+                }
             }
         }
         .input-type-button {
@@ -462,8 +464,7 @@ main {
                     color: rgba(211, 207, 207, .8);
                 }
             }
-            .input-button {
-                text-align: center;
+            .button {
                 input {
                     background-color: transparent;
                     border: none;
@@ -473,6 +474,10 @@ main {
                     font-size: .65vw;
                     letter-spacing: .01vw;
                     color: white;
+                    cursor: pointer;
+                    &:hover {
+                        background: linear-gradient(315deg, rgba(137, 0, 8), rgba(237, 222, 191));
+                    }
                 }
                 .gradient {
                     border-style: solid;

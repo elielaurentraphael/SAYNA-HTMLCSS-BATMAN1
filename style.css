@@ -16,8 +16,7 @@ button {
 }
 
 .header,
-section,
-.footer {
+section {
   width: 68.6vw;
   border-left: 0.28vw solid rgba(155, 155, 155, 0.2);
   border-right: 0.28vw solid rgba(155, 155, 155, 0.2);
@@ -441,6 +440,9 @@ main > img.justiceImage {
   font-weight: lighter;
   color: gray;
 }
+.contact form .frequence select option {
+  background: rgba(13, 73, 105, 0.8);
+}
 .contact form .input-type-button .input-disabled input {
   width: 100%;
   background-color: transparent;
@@ -454,10 +456,7 @@ main > img.justiceImage {
   font-weight: lighter;
   color: rgba(211, 207, 207, 0.8);
 }
-.contact form .input-type-button .input-button {
-  text-align: center;
-}
-.contact form .input-type-button .input-button input {
+.contact form .input-type-button .button input {
   background-color: transparent;
   border: none;
   padding: 0.5vw 1.5vw;
@@ -466,8 +465,12 @@ main > img.justiceImage {
   font-size: 0.65vw;
   letter-spacing: 0.01vw;
   color: white;
+  cursor: pointer;
 }
-.contact form .input-type-button .input-button .gradient {
+.contact form .input-type-button .button input:hover {
+  background: linear-gradient(315deg, rgb(137, 0, 8), rgb(237, 222, 191));
+}
+.contact form .input-type-button .button .gradient {
   border-style: solid;
   border-width: 0.1vw;
   border-image: linear-gradient(135deg, rgb(163, 152, 147), rgb(35, 129, 141)) 1;

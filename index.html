@@ -238,7 +238,7 @@
                     <label for="email">ADRESSE EMAIL</label>
                 </div>
                 <div class="email">
-                    <input type="email" id="email" value="Adresse email">
+                    <input type="email" id="email" placeholder="Adresse email" required> <!-- champ obligatoir -->
                 </div>
 
                 <div class="label-checkbox">
@@ -252,13 +252,14 @@
                         <p>
                             aventures de Batman :
                         </p>
-                        <input type="checkbox" id="checkbox">
+                        <input type="checkbox" id="checkbox" required> <!-- champ obligatoir -->
                     </div>
                 </div>
 
                 <div class="frequence">
                     <label for="frequency"></label>
-                    <select name="frequency" id="frequency">
+                    <select name="frequency" id="frequency" required>
+                        <!-- champ obligatoir -->
                         <option>Choisissez la fréquence à laquelle vous souhaitez recevoir votre newsletter</option>
                         <option>une fois par semaine</option>
                         <option>une fois toutes les deux semaines (2 fois par mois)</option>
@@ -272,7 +273,7 @@
                     <div class="input-disabled">
                         <input type="text" value="Souhaitez vous recevoir des news " disabled>
                     </div>
-                    <div class="input-button">
+                    <div class="button">
                         <input class="gradient" type="button" value="Des films">
                         <input class="gradient" type="button" value="Des comics">
                         <input class="gradient" type="button" value="De tout">
@@ -290,7 +291,7 @@
 
                 <div class="confirmer">
                     <div class="button">
-                        <button>CONFIRMER</button>
+                        <button type="submit">CONFIRMER</button>
                     </div>
                 </div>
             </form>
