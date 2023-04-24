@@ -52,11 +52,12 @@ button {
 .contact,
 .justiceImage {
     position: relative;
-    animation: fadeIn 8s;
-    -webkit-animation: fadeIn 8s;
-    -moz-animation: fadeIn 8s;
-    -o-animation: fadeIn 8s;
-    -ms-animation: fadeIn 8s;
+    animation: fadeIn 4s;
+    animation-delay: 2s;
+    -webkit-animation: fadeIn 4s;
+    -moz-animation: fadeIn 4s;
+    -o-animation: fadeIn 4s;
+    -ms-animation: fadeIn 4s;
 }
 @keyframes fadeIn {
     0% { left: -70vw; opacity: 0; }
