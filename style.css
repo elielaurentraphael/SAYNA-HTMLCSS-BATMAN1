@@ -365,9 +365,23 @@ main > img.justiceImage {
 }
 .multimedia .bandeAnnonce {
   padding: 4.5vw 4.5vw 9vw 4.5vw;
+  position: relative;
 }
 .multimedia .bandeAnnonce img {
+  display: block;
+}
+.multimedia .bandeAnnonce .bathome-ba2 {
   width: 100%;
+}
+.multimedia .bandeAnnonce .player {
+  position: absolute;
+  width: 11%;
+  top: 37.5%;
+  left: 44.3%;
+}
+.multimedia .bandeAnnonce .player:hover {
+  filter: drop-shadow(0 0 2vw rgba(255, 255, 255, 0.4));
+  -webkit-filter: drop-shadow(0 0 2vw rgba(255, 255, 255, 0.4));
 }
 
 /* class contact */
