@@ -227,6 +227,11 @@ section>div>.images { /* on met div au lieu de .animation pour avoir le minimum 
     .description {
         width: 17vw;
         font-family: "Rajdhani";
+        transition: transform 400ms;
+        -webkit-transition: transform 400ms;
+        -moz-transition: transform 400ms;
+        -ms-transition: transform 400ms;
+        -o-transition: transform 400ms;
         img {
             display: block;
             width: 100%;
@@ -239,7 +244,11 @@ section>div>.images { /* on met div au lieu de .animation pour avoir le minimum 
             margin: 1.2vw 0;
         }
         &:hover {
-            scale: 1.1;
+            transform: scale(1.1);
+            -webkit-transform: scale(1.1);
+            -moz-transform: scale(1.1);
+            -ms-transform: scale(1.1);
+            -o-transform: scale(1.1);
         }
     }
 }
