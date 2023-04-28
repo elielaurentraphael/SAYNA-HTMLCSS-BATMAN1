@@ -6,7 +6,7 @@ body {
   width: 80vw;
   margin: 0 auto;
   font-family: "Space Grotesk";
-  color: rgba(255, 255, 255, 0.8);
+  color: #ffffff;
 }
 
 h1,
@@ -18,8 +18,8 @@ button {
 .header,
 section {
   width: 68.6vw;
-  border-left: 0.28vw solid rgba(155, 155, 155, 0.2);
-  border-right: 0.28vw solid rgba(155, 155, 155, 0.2);
+  border-left: 0.28vw solid rgba(188, 187, 189, 0.1843137255);
+  border-right: 0.28vw solid rgba(188, 187, 189, 0.1843137255);
   margin: 0 auto;
 }
 
@@ -30,8 +30,8 @@ section {
 button {
   letter-spacing: 0.1vw;
   font-size: 0.95vw;
-  color: rgba(255, 255, 255, 0.8);
-  background: linear-gradient(315deg, rgba(137, 0, 8, 0.6), rgba(237, 222, 191, 0.4));
+  color: #ffffff;
+  background: linear-gradient(315deg, rgba(137, 0, 8, 0.6235294118), rgba(237, 222, 191, 0.3725490196));
   border: none;
   margin: 0;
   padding: 1.25vw 0;
@@ -39,7 +39,7 @@ button {
   cursor: pointer;
 }
 button:hover {
-  background: linear-gradient(315deg, rgb(137, 0, 8), rgb(237, 222, 191));
+  background: linear-gradient(315deg, #890008, #eddebf);
 }
 
 .intro,
@@ -124,7 +124,7 @@ header .header nav {
   letter-spacing: 0.1vw;
   font-size: 1.5vw;
   height: 11.4vw;
-  border-bottom: 0.28vw solid rgba(155, 155, 155, 0.2);
+  border-bottom: 0.28vw solid rgba(188, 187, 189, 0.1843137255);
   display: flex;
   align-items: start;
   justify-content: space-between;
@@ -143,16 +143,16 @@ header .header nav .logohome:hover {
 }
 header .header nav a {
   display: block;
-  color: white;
+  color: #ffffff;
 }
 header .header .intro {
-  color: rgba(255, 255, 255, 0.8);
+  color: #ffffff;
   text-align: center;
   font-size: 1.23vw;
   padding-top: 11.2vw;
 }
 header .header .heading {
-  color: white;
+  color: #ffffff;
   text-align: center;
   font-size: 1.55vw;
   font-weight: bold;
@@ -222,7 +222,7 @@ main {
 }
 
 h1 {
-  color: white;
+  color: #ffffff;
   font-size: 1.8vw;
   letter-spacing: 0.1vw;
   margin: 0;
@@ -234,7 +234,7 @@ h1 {
 section > .animation > p {
   width: 55vw;
   font-size: 1.23vw;
-  color: rgba(255, 255, 255, 0.8);
+  color: #ffffff;
   padding-left: 4.5vw;
   margin-bottom: 5vw;
   text-align: justify;
@@ -261,7 +261,7 @@ section > div > .images .description img {
   width: 100%;
 }
 section > div > .images .description > p {
-  color: rgba(255, 255, 255, 0.9);
+  color: #ffffff;
   text-align: center;
   font-size: 1.15vw;
   font-weight: 500;
@@ -316,7 +316,7 @@ section .justice h1 {
 }
 section .justice p {
   font-size: 1.23vw;
-  color: rgba(255, 255, 255, 0.8);
+  color: #ffffff;
   margin: 0;
   text-align: justify;
 }
@@ -341,10 +341,10 @@ main > img.justiceImage {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: linear-gradient(315deg, rgba(25, 88, 125, 0.4) 16%, rgba(237, 222, 191, 0.4) 96%);
+  background-image: linear-gradient(315deg, rgba(25, 88, 125, 0.3725490196) 16%, rgba(237, 222, 191, 0.3725490196) 96%);
   border-top-right-radius: 0.5vw;
   border-bottom-right-radius: 0.5vw;
-  color: rgba(255, 255, 255, 0.6);
+  color: #eddebf;
 }
 .multimedia .media .card .card-image {
   display: block;
@@ -367,7 +367,7 @@ main > img.justiceImage {
   font-size: 0.7vw;
 }
 .multimedia .media .card .card-text .p3 span {
-  color: rgb(243, 243, 80);
+  color: #ffff00;
 }
 .multimedia .media .card .card-text .text {
   font-size: 0.65vw;
@@ -389,13 +389,13 @@ main > img.justiceImage {
   left: 44.3%;
 }
 .multimedia .bandeAnnonce .player:hover {
-  filter: drop-shadow(0 0 2vw rgba(255, 255, 255, 0.4));
-  -webkit-filter: drop-shadow(0 0 2vw rgba(255, 255, 255, 0.4));
+  filter: drop-shadow(0 0 2vw rgba(255, 255, 255, 0.3098039216));
+  -webkit-filter: drop-shadow(0 0 2vw rgba(255, 255, 255, 0.3098039216));
 }
 
 /* class contact */
 .contact {
-  background-image: linear-gradient(315deg, rgba(25, 88, 125, 0.4) 16%, rgba(237, 222, 191, 0.4) 96%);
+  background-image: linear-gradient(315deg, rgba(25, 88, 125, 0.3725490196) 16%, rgba(237, 222, 191, 0.3725490196) 96%);
 }
 .contact h1 {
   margin: 0;
@@ -449,7 +449,7 @@ main > img.justiceImage {
   height: 1.2vw;
   display: block;
   margin-left: 0.6vw;
-  color: blue;
+  color: #19587d;
 }
 .contact form .frequence select {
   width: 100%;
@@ -465,20 +465,20 @@ main > img.justiceImage {
   color: gray;
 }
 .contact form .frequence select option {
-  background: rgba(13, 73, 105, 0.8);
+  background: linear-gradient(315deg, rgba(25, 88, 125, 0.3725490196) 16%, rgba(237, 222, 191, 0.3725490196) 96%);
 }
 .contact form .input-type-button .input-disabled input {
   width: 100%;
   background-color: transparent;
   border: none;
-  border-bottom: 0.1vw solid rgba(211, 207, 207, 0.8);
+  border-bottom: 0.1vw solid #ffffff;
   margin-top: 1.5vw;
   font-family: "Space Grotesk";
   font-size: 0.85vw;
   letter-spacing: 0.02vw;
   word-spacing: 0.04vw;
   font-weight: lighter;
-  color: rgba(211, 207, 207, 0.8);
+  color: #ffffff;
 }
 .contact form .input-type-button .button input {
   background-color: transparent;
@@ -488,11 +488,11 @@ main > img.justiceImage {
   font-family: "Space Grotesk";
   font-size: 0.65vw;
   letter-spacing: 0.01vw;
-  color: white;
+  color: #ffffff;
   cursor: pointer;
 }
 .contact form .input-type-button .button input:hover {
-  background: linear-gradient(315deg, rgb(137, 0, 8), rgb(237, 222, 191));
+  background: linear-gradient(315deg, #890008, #eddebf);
 }
 .contact form .input-type-button .button .gradient {
   border-style: solid;
@@ -551,7 +551,7 @@ footer {
   font-size: 0.7vw;
   letter-spacing: 0.03vw;
   line-height: 0.5vw;
-  color: rgb(61, 86, 197);
+  color: #19587d;
   padding-top: 0.3vw;
 }
 .footer .a .f {

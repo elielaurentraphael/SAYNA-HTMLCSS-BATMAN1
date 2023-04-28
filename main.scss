@@ -4,11 +4,28 @@
 
 /* css général */
 
+$yellow:#ffff00;
+$yellow-batman:#f8f184;
+$blue-batman:#19587d;
+$red-batman:#b11313;
+$black-batman:#0d0c09;
+$text-color2:#eddebf;
+$red-batman1:#980008;
+$grey-bat:#c4c4c4;
+$background-color:#000000;
+$text-color:#ffffff;
+$drop-shadow-color:#ffffff4f;
+$border-page-color:#bcbbbd2f;
+$disabled-color:#ffffff;
+$background-button:linear-gradient(315deg, #8900089f, #eddebf5f);
+$background-button-hover:linear-gradient(315deg, #890008, #eddebf);
+$background-color2: linear-gradient(315deg, #19587d5f 16%, #eddebf5f 96%);
+
 body {
     width: 80vw;
     margin: 0 auto;
     font-family: "Space Grotesk";
-    color: rgba(255, 255, 255, .8);
+    color: $text-color;
 }
 
 h1,
@@ -20,8 +37,8 @@ button {
 .header,
 section {                   
     width: 68.6vw;
-    border-left: .28vw solid rgba(155, 155, 155, .2);
-    border-right: .28vw solid rgba(155, 155, 155, .2);
+    border-left: .28vw solid $border-page-color;
+    border-right: .28vw solid $border-page-color;
     margin: 0 auto;
 }
 
@@ -32,15 +49,15 @@ section {
 button {
     letter-spacing: .1vw;
     font-size: .95vw;
-    color: rgba(255, 255, 255, .8);
-    background: linear-gradient(315deg, rgba(137, 0, 8, .6), rgba(237, 222, 191, .4));
+    color: $text-color;
+    background: $background-button;
     border: none;
     margin: 0;
     padding: 1.25vw 0;
     width: 14vw;
     cursor: pointer;
     &:hover {
-        background: linear-gradient(315deg, rgba(137, 0, 8), rgba(237, 222, 191));
+        background: $background-button-hover;
     }
 }
 
@@ -97,7 +114,7 @@ header {
             letter-spacing: .1vw;
             font-size: 1.5vw;
             height: 11.4vw;
-            border-bottom: .28vw solid rgba(155, 155, 155, .2);
+            border-bottom: .28vw solid $border-page-color;
             display: flex;
             align-items: start;
             justify-content: space-between;
@@ -115,17 +132,17 @@ header {
             }
             a {
                 display: block;
-                color: white;
+                color: $text-color;
             }
         }
         .intro {
-            color: rgba(255, 255, 255, .8);
+            color: $text-color;
             text-align: center;
             font-size: 1.23vw;
             padding-top: 11.2vw;
         }
         .heading {
-            color: white;
+            color: $text-color;
             text-align: center;
             font-size: 1.55vw;
             font-weight: bold;
@@ -196,11 +213,11 @@ header {
 /* --main-- */
 
 main {
-    background-color: #000000;
+    background-color: $background-color;
 }
 
 h1 {
-    color: white;
+    color: $text-color;
     font-size: 1.8vw;
     letter-spacing: .1vw;
     margin: 0;
@@ -212,7 +229,7 @@ h1 {
 section>.animation>p {
     width: 55vw;
     font-size: 1.23vw;
-    color: rgba(255, 255, 255, .8);
+    color: $text-color;
     padding-left: 4.5vw;
     margin-bottom: 5vw;
     text-align: justify;
@@ -237,7 +254,7 @@ section>div>.images { /* on met div au lieu de .animation pour avoir le minimum 
             width: 100%;
         }
         >p {
-            color: rgba(255, 255, 255, .9);
+            color: $text-color;
             text-align: center;
             font-size: 1.15vw;
             font-weight: 500;
@@ -304,7 +321,7 @@ section {
         }
         p {
             font-size: 1.23vw;
-            color: rgba(255, 255, 255, .8);
+            color: $text-color;
             margin: 0;
             text-align: justify;
         }
@@ -337,10 +354,10 @@ main {
             display: flex;
             align-items: center;
             justify-content: center;
-            background-image: linear-gradient(315deg, rgba(25, 88, 125, .4)16%, rgb(237, 222, 191, .4)96%);
+            background-image: $background-color2;
             border-top-right-radius: .5vw;
             border-bottom-right-radius: .5vw;
-            color: rgba(255, 255, 255, .6);
+            color: $text-color2;
             .card-image {
                 display: block;
                 width: 8.5vw;
@@ -360,7 +377,7 @@ main {
                 .p3 {
                     font-size: .7vw;
                     span {
-                        color: rgb(243, 243, 80);
+                        color: $yellow;
                     }
                 }
                 .text {
@@ -384,8 +401,8 @@ main {
             top: 37.5%;
             left: 44.3%;
             &:hover {
-                filter: drop-shadow(0 0 2vw rgba(255, 255, 255, .4));
-                -webkit-filter: drop-shadow(0 0 2vw rgba(255, 255, 255, .4));
+                filter: drop-shadow(0 0 2vw $drop-shadow-color);
+                -webkit-filter: drop-shadow(0 0 2vw $drop-shadow-color);
             }
         }
     }
@@ -394,7 +411,7 @@ main {
 /* class contact */
 
 .contact {
-    background-image: linear-gradient(315deg, rgba(25, 88, 125, .4)16%, rgb(237, 222, 191, .4)96%);
+    background-image: $background-color2;
     h1 {
         margin: 0;
         padding: 3vw;
@@ -450,7 +467,7 @@ main {
                     height: 1.2vw;
                     display: block;
                     margin-left: .6vw;
-                    color: blue;
+                    color: $blue-batman;
                 }
             }
         }
@@ -468,7 +485,7 @@ main {
                 font-weight: lighter;
                 color: gray;
                 option {
-                    background: rgba(13, 73, 105, 0.8);
+                    background: $background-color2;
                 }
             }
         }
@@ -478,14 +495,14 @@ main {
                     width: 100%;
                     background-color: transparent;
                     border: none;
-                    border-bottom: .1vw solid rgba(211, 207, 207, .8);
+                    border-bottom: .1vw solid $disabled-color;
                     margin-top: 1.5vw;
                     font-family: "Space Grotesk";
                     font-size: .85vw;
                     letter-spacing: .02vw;
                     word-spacing: .04vw;
                     font-weight: lighter;
-                    color: rgba(211, 207, 207, .8);
+                    color: $disabled-color;
                 }
             }
             .button {
@@ -497,10 +514,10 @@ main {
                     font-family: "Space Grotesk";
                     font-size: .65vw;
                     letter-spacing: .01vw;
-                    color: white;
+                    color: $text-color;
                     cursor: pointer;
                     &:hover {
-                        background: linear-gradient(315deg, rgba(137, 0, 8), rgba(237, 222, 191));
+                        background: $background-button-hover;
                     }
                 }
                 .gradient {
@@ -542,7 +559,7 @@ main {
 /* --footer-- */
 
 footer {
-    background-color: #000000;
+    background-color: $background-color;
 }
 
 /* section footer */
@@ -573,7 +590,7 @@ footer {
                 font-size: .7vw;
                 letter-spacing: .03vw;
                 line-height: .5vw;
-                color: rgb(61, 86, 197);
+                color: $blue-batman;
                 padding-top: .3vw;
             }
         }
